@@ -50,6 +50,8 @@ public class Test1 {
 					
 					LaunchBrowser.navigateto(driver, urlvalue);
 					
+					LaunchBrowser.implicitWait( driver,5, TimeUnit.SECONDS);
+					
 					try {
 						Thread.sleep(1000);
 					} catch (InterruptedException e) {
