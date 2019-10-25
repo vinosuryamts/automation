@@ -62,6 +62,8 @@ public class LaunchBrowser {
 			System.out.println("Time Wait " + seconds + " "+ time);
 			driver = driverval;
 			driver.manage().timeouts().implicitlyWait(seconds, time);
+			driver.manage().timeouts().implicitlyWait(seconds, time);
+			driver.manage().timeouts().implicitlyWait(seconds, time);
 			
 		}
 		
